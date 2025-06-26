@@ -3994,16 +3994,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 194.31) (xy 163.83 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23513e18-139e-42ed-af92-4bf254457e5b")
-	)
-	(wire
-		(pts
 			(xy 147.32 158.75) (xy 148.59 158.75)
 		)
 		(stroke
@@ -4191,16 +4181,6 @@
 			(type default)
 		)
 		(uuid "3de4c156-8860-4f14-b5a7-7cbd62b2b043")
-	)
-	(wire
-		(pts
-			(xy 160.02 195.58) (xy 158.75 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e43ed02-2693-4e34-8a95-3ef8d9fa2369")
 	)
 	(wire
 		(pts
@@ -4784,16 +4764,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 194.31) (xy 160.02 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf9e3b27-9014-4b6b-b1c4-583f7b3faf79")
-	)
-	(wire
-		(pts
 			(xy 143.51 59.69) (xy 148.59 59.69)
 		)
 		(stroke
@@ -4871,16 +4841,6 @@
 			(type default)
 		)
 		(uuid "ca052786-0818-4d97-b648-33d91b5d5560")
-	)
-	(wire
-		(pts
-			(xy 163.83 195.58) (xy 165.1 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb254d64-e795-4923-9e88-a3a70e9c7bec")
 	)
 	(wire
 		(pts
@@ -5788,28 +5748,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape input)
-		(at 158.75 195.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "512b2f8e-e490-40c9-9db8-b6925254fc81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.8943 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I4"
 		(shape input)
 		(at 132.08 115.57 180)
@@ -6510,28 +6448,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 165.1 195.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbe9f459-a24c-448e-aa2a-b678cd2a03ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.9557 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8720,6 +8636,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDPWR")
+		(at 160.02 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "739cd11d-ebb5-4a71-af3c-bedf478fa275")
+		(property "Reference" "#PWR0119"
+			(at 160.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 155.448 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 160.02 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "930394b4-8101-4815-807a-451a23cd6b2c")
+		)
+		(instances
+			(project "banc_test_carte_batterie_LPDU"
+				(path "/95f2d09a-c20f-4ec2-99ef-0f899aa4347c"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 189.23 128.27 90)
 		(mirror x)
@@ -10646,6 +10627,71 @@
 			(project "banc_test_carte_batterie_LPDU"
 				(path "/95f2d09a-c20f-4ec2-99ef-0f899aa4347c"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 163.83 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9ec9f0d-1949-4cca-aaf1-14320ca30f29")
+		(property "Reference" "#PWR0118"
+			(at 163.83 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 168.148 194.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c81f659f-696e-46da-8227-6a22718ec512")
+		)
+		(instances
+			(project ""
+				(path "/95f2d09a-c20f-4ec2-99ef-0f899aa4347c"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)

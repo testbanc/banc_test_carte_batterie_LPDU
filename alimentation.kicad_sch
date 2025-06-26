@@ -1219,25 +1219,16 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "TEN 8"
+				(at 0.508 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Footprint" "Omialimentation:CONV_TEN_8-1223"
+				(at 1.016 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1245,8 +1236,62 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://docs.rs-online.com/3545/0900766b816e9de6.pdf"
+				(at 1.27 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Convertisseur DC-DC TRACOPOWER TEN 8, Montage traversant, 8W, 2 sorties, ±15V c.c., ±265mA"
+				(at 1.27 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fabriquant " "TRACOPOWER"
+				(at 0 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fabreference" "TEN 8-1223"
+				(at 0.508 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Omicron" "NC"
+				(at 0.254 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributeur1" "RS:423-9628P"
+				(at 1.016 -14.224 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Distributeur2" "F: 1205021"
+				(at 0.762 -14.224 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7631,7 +7676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Omialimentation:CONV_TEN_8-1223"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -7640,7 +7685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://docs.rs-online.com/3545/0900766b816e9de6.pdf"
 			(at 163.83 95.25 0)
 			(effects
 				(font
@@ -7649,8 +7694,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Convertisseur DC-DC TRACOPOWER TEN 8, Montage traversant, 8W, 2 sorties, ±15V c.c., ±265mA"
 			(at 163.83 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabriquant " "TRACOPOWER"
+			(at 163.83 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fabreference" "TEN 8-1223"
+			(at 164.338 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Omicron" "NC"
+			(at 164.084 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur1" "RS:423-9628P"
+			(at 164.846 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributeur2" "F: 1205021"
+			(at 164.592 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)

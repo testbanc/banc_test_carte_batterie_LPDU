@@ -1,4 +1,4 @@
-24512408664780635
+24519412595221305
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68249,6 +68249,34 @@ net tie
 0
 4
 4
+OmiEntreeSortie
+SOIC127P1030X265-24N
+
+
+0
+24
+24
+OmiEntreeSortie
+TMUX1574
+
+
+0
+16
+16
+Omialimentation
+BAT_1075
+
+
+0
+2
+2
+Omialimentation
+CONV_TEN_8-1223
+
+
+0
+9
+9
 Omialimentation
 L7805CV
 
@@ -68382,6 +68410,13 @@ Through hole pin header THT 1x32 2.54mm single row
 0
 15
 15
+Omiconnecteur
+PinHeader_1x20_P2.54mm_V_omi
+Through hole straight pin header, 1x32, 2.54mm pitch, single row
+Through hole pin header THT 1x32 2.54mm single row
+0
+20
+20
 Omiconnecteur
 PinHeader_1x32_P2.54mm_V_omi
 Through hole straight pin header, 1x32, 2.54mm pitch, single row
