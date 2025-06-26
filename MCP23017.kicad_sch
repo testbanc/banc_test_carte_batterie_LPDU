@@ -4176,16 +4176,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 139.7) (xy 101.6 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f07521f-2a98-47c2-91f1-33e2d0ae45aa")
-	)
-	(wire
-		(pts
 			(xy 96.52 39.37) (xy 96.52 46.99)
 		)
 		(stroke
@@ -4433,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "74c555a0-26cc-4b9a-a3de-2396a1d495f9")
+	)
+	(wire
+		(pts
+			(xy 100.33 139.7) (xy 101.6 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761a4ee4-7e1d-4a23-8c7f-5a36c0fe64bf")
 	)
 	(wire
 		(pts
@@ -5404,7 +5404,7 @@
 		)
 		(uuid "f58c5f4c-3872-4739-b8e5-97e874d76f6d")
 	)
-	(global_label "A2"
+	(global_label "A21"
 		(shape input)
 		(at 100.33 177.8 180)
 		(fields_autoplaced yes)
@@ -5416,7 +5416,7 @@
 		)
 		(uuid "02e3dacb-139b-4419-b1cc-6316103a7a4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0467 177.8 0)
+			(at 93.8372 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +5998,7 @@
 			)
 		)
 	)
-	(global_label "A0"
+	(global_label "A01"
 		(shape input)
 		(at 100.33 172.72 180)
 		(fields_autoplaced yes)
@@ -6010,7 +6010,7 @@
 		)
 		(uuid "5fb5ff24-1472-4872-bab1-01d72d46a5b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0467 172.72 0)
+			(at 93.8372 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6350,7 @@
 			)
 		)
 	)
-	(global_label "SCK"
+	(global_label "SCL"
 		(shape input)
 		(at 100.33 139.7 180)
 		(fields_autoplaced yes)
@@ -6362,7 +6362,7 @@
 		)
 		(uuid "7c6f0707-d337-4501-b5a3-2411648adbff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.5953 139.7 0)
+			(at 93.8372 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6724,7 @@
 			)
 		)
 	)
-	(global_label "A1"
+	(global_label "A11"
 		(shape input)
 		(at 100.33 175.26 180)
 		(fields_autoplaced yes)
@@ -6736,7 +6736,7 @@
 		)
 		(uuid "a98af79c-8633-45cb-baea-bdfe82cc858f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.0467 175.26 0)
+			(at 93.8372 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

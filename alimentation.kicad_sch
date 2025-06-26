@@ -3761,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68065604-c6ac-4bec-a229-1a973b4eaca8")
+	)
+	(wire
+		(pts
 			(xy 201.93 93.98) (xy 201.93 96.52)
 		)
 		(stroke
@@ -4391,6 +4401,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 104.14) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e663b57e-b317-46c3-95d7-d6d49b966c7d")
+	)
+	(wire
+		(pts
 			(xy 233.68 30.48) (xy 236.22 30.48)
 		)
 		(stroke
@@ -4716,6 +4736,28 @@
 		(uuid "05fa0dff-5a9d-4502-8847-4f4e16ccbc2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.37 162.5818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_ALIM"
+		(shape input)
+		(at 152.4 105.41 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0dc525ee-f0be-47f5-a3cf-40e6a29c99ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 117.4062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
